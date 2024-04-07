@@ -35,53 +35,60 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Gradutation,BTECH",
+    location: "Lucknow, UP",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I am doing My graduation in Btech From Aktu University.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022-2026",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Remote",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer for 3 months in Skillbee . Helped Early startup with My frontend Skills To land upon the New webite",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "May 2023  - July 2023",
   },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
-] as const;
 
+] as const;
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "GuruKul",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I developed  Elearning Application . A Robust Payment Gateway, Authentication system.A live Videoplayer users can watch videos comment about videos. ",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma","Redis","Cloudinary","VideoCipher","EJS"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Story sail",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "A Robust Blogging website with Nice authentication system and Blogging editing features.Used Appwrite as Backend.",
+    tags: ["React", "Java Script", "Tailwind", "Redux","Appwrite","Multer"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Dashboard",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Developed a data visualization dashboard using D3.js, providing stakeholders with real-time insight and improving decision-making processes.",
+    tags: ["React", "Redux", "express", "Tailwind", "helmet","Mui","MongoDB"],
     imageUrl: wordanalyticsImg,
   },
+  {
+    title: "SocialPedia",
+    description:
+      "Developed a socialmedia application like pintrest where users can upload pictures,like it and even Download it",
+    tags: ["React", "Redux", "express", "Tailwind", "Socket.Io","Mui","MongoDB"],
+    imageUrl: wordanalyticsImg,
+  },{
+    title: "FigPro",
+    description:
+      "Developed A Figma Clone a designing tool where users can collabrate and design live .User also can download it in form of PDF.  ",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "LiveBlocks","Framer","Canva"],
+    imageUrl: wordanalyticsImg,
+  },
+
+  
 ] as const;
 
 export const skillsData = [
