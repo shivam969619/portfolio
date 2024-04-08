@@ -91,7 +91,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="../public/shivam72resume.pdf"
+          href="https://drive.google.com/file/d/1VDY5rD6x7HNNagvQPZXbGflj1050CcuV/view"
           download
         >
           Download CV{" "}
